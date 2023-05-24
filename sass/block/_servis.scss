@@ -1,0 +1,32 @@
+.servis{
+    height: auto;
+    padding: 100px 0 100px 0;
+    &_wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_img{
+        img{
+            margin-top: 110px;
+        }
+    }
+    &__title{
+        font-size: 24px;
+        line-height: 33px;
+        color: #868585;
+    }
+    &_items{
+        margin-top: 60px;
+        width: 510px;
+        .title{
+            margin-top: 50px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #303030;
+        }
+        .descr{
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    }
+}

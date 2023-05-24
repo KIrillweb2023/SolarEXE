@@ -1,0 +1,12 @@
+.quote{
+    height: auto;
+    background: url('../img/quote.svg') center (center / cover) no-repeat;
+    padding: 130px 0 145px 0;
+    &_descr{
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

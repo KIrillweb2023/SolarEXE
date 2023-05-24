@@ -1,0 +1,57 @@
+.promo{
+    height: auto;
+    padding: 75px 0 35px 0;
+    background: url('../img/promo.png') center (center / cover) no-repeat;
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    &_text{
+        font-size: 18px;
+        color: #fff;
+        margin-top: 140px;
+        text-align: center;
+    }
+    &__title{
+        span{
+            font-size: 64px;
+            font-weight: 700;
+        }
+        line-height: 67px;
+        text-align: center;
+        
+        color: #fff;
+        font-size: 42px;
+    }
+    &_btn{
+        cursor: pointer;
+        width: 320px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        &:hover{
+            background-color: #fff;
+            color: #000;
+            transition: 0.6s all;
+        }
+    }
+    .mesanges{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 300px;
+        a{
+            margin-left: 20px;
+            &:nth-child(1){
+                margin-left: 0;
+            }
+        }
+    }
+}

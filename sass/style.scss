@@ -1,0 +1,33 @@
+@import 'block/promo';
+@import 'block/servis';
+@import 'block/quote';
+@import 'block/stantion';
+@import 'block/footer';
+
+@import 'media-settings/media';
+
+
+::-webkit-scrollbar{
+    width: 0;
+}
+.container{
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+input, button{
+    outline: none;
+}
+.animation{
+    opacity: 0;
+    transition: 0.3s all;
+}
+.none{
+    opacity: 1;
+    transition: 0.3s all;
+}
